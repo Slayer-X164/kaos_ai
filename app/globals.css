@@ -3,11 +3,12 @@
  /* width */
 ::-webkit-scrollbar {
   width: 5px;
+
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: oklch(59.2% 0.249 0.584);
+  background: oklch(91.775% 0.04687 344.843 / 0);
 }
 
 /* Handle */
@@ -17,11 +18,12 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: oklch(59.2% 0.249 0.584);
+  background: oklch(71.181% 0.15132 349.521);
 }
 
+
 pre{
-    overflow: scroll;
+    overflow-x: auto;
     margin: 6px 0px;
     background-color: rgb(27, 8, 24);
     border-radius: 16px;
