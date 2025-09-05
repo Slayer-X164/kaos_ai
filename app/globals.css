@@ -1,2 +1,36 @@
 @import "tailwindcss";
 
+ /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: oklch(59.2% 0.249 0.584);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: oklch(59.2% 0.249 0.584);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(59.2% 0.249 0.584);
+}
+
+pre{
+    overflow: scroll;
+    margin: 6px 0px;
+    background-color: rgb(27, 8, 24);
+    border-radius: 16px;
+    color:rgb(146, 199, 239);
+    padding: 10px;
+}
+ol,ul{
+    padding: 10px;
+}
+li{
+    list-style-type:disc;
+}
